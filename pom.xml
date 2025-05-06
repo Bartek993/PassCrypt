@@ -69,10 +69,9 @@
         <version>0.0.8</version>
         <executions>
           <execution>
-            <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>org.example.passwordmanager/org.example.passwordmanager.HelloApplication</mainClass>
+              <mainClass>org.example.passwordmanager/org.example.passwordmanager.StartApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
